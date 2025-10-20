@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:add",
+        "argument1": "tfautil:sky_continent_density",
+        "argument2": {
+          "type": "minecraft:noise",
+          "noise": "tfautil:sky0",
+          "xz_scale": 0.7,
+          "y_scale": 1.0
+        }
+      },
+      "argument2": "tfautil:sky_islands_density"
+    },
+    "argument2": "tfautil:sky_y_density"
+  },
+  "argument2": -1.3
+}

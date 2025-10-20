@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tfa_dims",
+  "version": "${version}",
+  "name": "tfa_dims",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tfa_dims/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.wateralt.mc.tfa_dims.client.TfaDimsDataGenerator"
+    ],
+    "client": [
+      "dev.wateralt.mc.tfa_dims.client.TfaDimsClient"
+    ],
+    "main": [
+      "dev.wateralt.mc.tfa_dims.TfaDims"
+    ]
+  },
+  "mixins": [
+    "tfa_dims.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
