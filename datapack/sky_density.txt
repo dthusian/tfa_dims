@@ -1,0 +1,1 @@
+"tfadim:sky_continent_density" + noise("tfadim:sky0", 0.7, 1) + "tfadim:sky_islands_density" + "tfadim:sky_y_density" - 1.3

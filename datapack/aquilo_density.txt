@@ -1,0 +1,1 @@
+"tfadim:aquilo_island_density" + "tfadim:aquilo_y_density" + 0.2 * (1 - (1 - noise("minecraft:surface", 1.0, 0.0)) ** 3) * noise("tfadim:hf_noise", 1.0, 0.1) - 1

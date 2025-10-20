@@ -53,9 +53,8 @@
       "y_scale": 0.0
     },
 
-    "__comment2": "TODO",
     "preliminary_surface_level": 0.0,
-    "final_density": "tfautil:sky_density"
+    "final_density": "tfadim:sky_density"
   },
   "surface_rule": {
     "type": "minecraft:sequence",

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:simple_random_selector",
   "config": {
-    "features": "tfautil:scrap_pile"
+    "features": "tfadim:scrap_pile"
   }
 }
