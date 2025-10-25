@@ -21,9 +21,8 @@ public abstract class LivingEntityMixin {
       if(world.getLightLevel(LightType.BLOCK, that.getBlockPos()) < 12) {
         that.setInPowderSnow(true);
         that.setFrozenTicks(Math.min(that.getMinFreezeDamageTicks() * 5, that.getFrozenTicks() + 1));
-      }
-      if(world.getLightLevel(LightType.BLOCK, that.getBlockPos()) == 15) {
-        that.setFrozenTicks(Math.max(0, that.getFrozenTicks() - 5));
+      } else {
+        that.setFrozenTicks(Math.min(that.getMinFreezeDamageTicks() + 30, that.getFrozenTicks()));
       }
       if(that.isTouchingWater()) {
         that.setInPowderSnow(true);
