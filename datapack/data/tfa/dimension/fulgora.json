@@ -1,0 +1,71 @@
+{
+    "type": "tfa:fulgora_dim",
+    "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+            "type": "multi_noise",
+            "biomes": [
+                {
+                    "biome": "tfa:deep_oil_ocean",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": [0, 0.043],
+                        "humidity": 0,
+                        "offset": 0,
+                        "temperature": [-2, 2],
+                        "weirdness": 0
+                    }
+                },
+                {
+                    "biome": "tfa:oil_ocean",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": [0.043, 0.1],
+                        "humidity": 0,
+                        "offset": 0,
+                        "temperature": [-2, 2],
+                        "weirdness": 0
+                    }
+                },
+                {
+                    "biome": "tfa:plateau",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": [0.1, 2],
+                        "humidity": 0,
+                        "offset": 0,
+                        "temperature": [-0.8, 0.8],
+                        "weirdness": 0
+                    }
+                },
+                {
+                    "biome": "tfa:scrap_field",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": [0.12, 2],
+                        "humidity": 0,
+                        "offset": 0,
+                        "temperature": [-2, -0.8],
+                        "weirdness": 0
+                    }
+                },{
+                    "biome": "tfa:scrap_field",
+                    "parameters": {
+                        "continentalness": 0,
+                        "depth": 0,
+                        "erosion": [0.12, 2],
+                        "humidity": 0,
+                        "offset": 0,
+                        "temperature": [0.80, 2],
+                        "weirdness": 0
+                    }
+                }
+            ]
+        },
+        "settings": "tfa:fulgora"
+    }
+}
