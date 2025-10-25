@@ -4,7 +4,7 @@
     "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "minecraft:cold_ocean"
+      "biome": "tfadim:aquilo"
     },
     "settings": "tfadim:aquilo"
   }

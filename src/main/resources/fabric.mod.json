@@ -8,14 +8,8 @@
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/tfa_dims/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "dev.wateralt.mc.tfa_dims.client.TfaDimsDataGenerator"
-    ],
-    "client": [
-      "dev.wateralt.mc.tfa_dims.client.TfaDimsClient"
-    ],
     "main": [
       "dev.wateralt.mc.tfa_dims.TfaDims"
     ]

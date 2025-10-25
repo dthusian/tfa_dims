@@ -4,6 +4,7 @@
   "package": "dev.wateralt.mc.tfa_dims.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "LivingEntityMixin"
   ],
   "client": [
   ],
