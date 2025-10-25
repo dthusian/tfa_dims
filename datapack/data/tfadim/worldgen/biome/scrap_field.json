@@ -6,7 +6,7 @@
     "carvers": [],
     "features": [
         [
-            "tfa:scrap_pile"
+            "tfadim:scrap_pile"
         ]
     ],
     "spawners": {},

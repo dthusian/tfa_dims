@@ -36,7 +36,7 @@
                 "type": "abs",
                 "argument": {
                     "type": "noise",
-                    "noise": "tfa:fulgora_islands",
+                    "noise": "tfadim:fulgora_islands",
                     "xz_scale": 0.1,
                     "y_scale": 0
                 }
@@ -77,7 +77,7 @@
                                 "type": "abs",
                                 "argument": {
                                     "type": "noise",
-                                    "noise": "tfa:fulgora_islands",
+                                    "noise": "tfadim:fulgora_islands",
                                     "xz_scale": 0.1,
                                     "y_scale": 0
                                 }
@@ -175,7 +175,7 @@
                             "if_true": {
                                 "type": "biome",
                                 "biome_is": [
-                                    "tfa:oil_ocean"
+                                    "tfadim:oil_ocean"
                                 ]
                             },
                             "then_run": {
@@ -190,7 +190,7 @@
                             "if_true": {
                                 "type": "biome",
                                 "biome_is": [
-                                    "tfa:deep_oil_ocean"
+                                    "tfadim:deep_oil_ocean"
                                 ]
                             },
                             "then_run": {

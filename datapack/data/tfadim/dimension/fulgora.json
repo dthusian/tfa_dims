@@ -1,12 +1,12 @@
 {
-    "type": "tfa:fulgora_dim",
+    "type": "tfadim:fulgora_dim",
     "generator": {
         "type": "minecraft:noise",
         "biome_source": {
             "type": "multi_noise",
             "biomes": [
                 {
-                    "biome": "tfa:deep_oil_ocean",
+                    "biome": "tfadim:deep_oil_ocean",
                     "parameters": {
                         "continentalness": 0,
                         "depth": 0,
@@ -18,7 +18,7 @@
                     }
                 },
                 {
-                    "biome": "tfa:oil_ocean",
+                    "biome": "tfadim:oil_ocean",
                     "parameters": {
                         "continentalness": 0,
                         "depth": 0,
@@ -30,7 +30,7 @@
                     }
                 },
                 {
-                    "biome": "tfa:plateau",
+                    "biome": "tfadim:plateau",
                     "parameters": {
                         "continentalness": 0,
                         "depth": 0,
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "biome": "tfa:scrap_field",
+                    "biome": "tfadim:scrap_field",
                     "parameters": {
                         "continentalness": 0,
                         "depth": 0,
@@ -53,7 +53,7 @@
                         "weirdness": 0
                     }
                 },{
-                    "biome": "tfa:scrap_field",
+                    "biome": "tfadim:scrap_field",
                     "parameters": {
                         "continentalness": 0,
                         "depth": 0,
@@ -66,6 +66,6 @@
                 }
             ]
         },
-        "settings": "tfa:fulgora"
+        "settings": "tfadim:fulgora"
     }
 }
